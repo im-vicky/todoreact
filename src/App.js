@@ -3,10 +3,9 @@ import { nanoid } from 'nanoid'
 import Todo from './components/Todo'
 import Form from './components/Form'
 import FilterButton from './components/FilterButton'
-import './App.css'
+import './App.css' 
 
 const App = (props) => {
-
     const [tasks, setTasks] = useState(props.tasks);
     const [filter, setFilter] = useState('All');
 
